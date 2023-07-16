@@ -362,10 +362,15 @@ footer .footer-logo {
   width: 100%;
   max-width: 300px;
   margin: 30px 0;
+  color:white;
+  font-family: 'Pacifico', cursive;
+  font-size: xx-large;
+  font-weight:bold; 
 }
 
 footer {
   padding-left: 30px;
+  padding-bottom: 3rem;
 }
 
 footer .adres,
@@ -385,5 +390,45 @@ footer .column-insta  {
   color: #ffffff;
   flex-direction: column;
   gap: 15px;
+  
 }
 
+.column-insta {
+  padding-top: 4.7rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+ 
+
+}
+
+.shrink {
+  flex-shrink: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-sol {
+  padding-right: 2rem;
+}
+
+.sicacik {
+  line-height: 1.6;
+  padding-top: 4.5rem;
+ 
+  
+}
+
+.sicacik h3 {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.menulistesi, .adres p, .mail p, .iletisim p{
+  opacity: 0.6;
+}
